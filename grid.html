@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Grid</title>
+    <style>
+        * {
+            box-sizing: content-box;
+        }
+        
+        [class*="col-"] {
+            padding: 15px;
+            border: 1px solid red;
+            float: left;
+        }
+
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+        
+        @media only screen and (max-width: 768px) {
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+
+
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+<div class="col-1" style="box-sizing:content-box;">Test 1</div>
+<div class="col-1" style="box-sizing:content-box;">Test 2</div>
+<div class="col-1" style="box-sizing:content-box;">Test 3</div>
+<div class="col-1" style="box-sizing:content-box;">Test 4</div>
+<div class="col-1" style="box-sizing:content-box;">Test 5</div>
+<div class="col-1" style="box-sizing:content-box;">Test 6</div>
+<div class="col-1">Test 7</div>
+<div class="col-1">Test 8</div>
+<div class="col-1">Test 9</div>
+<div class="col-1">Test 10</div>
+<div class="col-1">Test 11</div>
+<div class="col-1">Test 12</div>
+
+</body>
+</html>
